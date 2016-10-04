@@ -21,6 +21,7 @@ const ReactBoilerplate = {
        * by listing them here.
        */
       exclude: [
+        "bootstrap-css-only",// XXX https://github.com/mxstbr/react-boilerplate/blob/master/docs/css/css-modules.md
         'chalk',
         'compression',
         'cross-env',
