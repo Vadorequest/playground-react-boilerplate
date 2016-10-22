@@ -10,21 +10,16 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
-import H1 from '../../components/H1';
-import { Button, Grid } from 'react-bootstrap';
+// import { Button, Grid } from 'react-bootstrap';
+import NavbarTop from '../../components/NavbarTop';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
-      <Grid fluid>
-        <H1>
-          <FormattedMessage {...messages.header} />
-        </H1>
-        <Button bsStyle="primary">Primary</Button>
-      </Grid>
+      <NavbarTop>
+
+      </NavbarTop>
     );
   }
 }
